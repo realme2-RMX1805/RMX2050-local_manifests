@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="lineage-18.1" />
+	
+    <remote name="device"
+            fetch="https://github.com"
+            revision="lineage-18.1"/>
+
+    <remote name="kernel"
+            fetch="https://github.com"
+            revision="master"/>
+
+    <!--Device Trees-->
+    <project path="device/realme/RMX2050" name="madmax7896/device_realme_RMX2050" remote="device" />
+
+
+    <!--Kernel-->
+    <project path="kernel/realme/RMX2050" name="realme-kernel-opensource/realmenarzo20A_AndroidQ-kernel-source" remote="kernel" />
+
+
+
+    <!-- Vendor folders -->
+    <project path="vendor/realme/RMX2050" name="madmax7896/vendor_realme_RMX2050" remote="vendor" />
+</manifest>
